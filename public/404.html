@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>O Que Você Esqueceu</title>
+    <script>
+      // SPA fallback redirect for GitHub Pages
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      var redirectPath = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/');
+      window.location.replace(redirectPath + (redirectPath.endsWith('/') ? '' : '/') + (l.hash || ''));
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
