@@ -1,0 +1,6 @@
+{
+  "name": "O Que Você Esqueceu",
+  "description": "Um jogo atmosférico de ateliê e arena onde o desenho se transforma no mundo enfrentado, revelando suas escolhas e o que você esqueceu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
